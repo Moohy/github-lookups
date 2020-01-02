@@ -1,0 +1,49 @@
+body {
+    background-color: #f6f6f6;
+}    
+#lookup{
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.repos {
+    
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+[id ^= "repo-"] {
+    background-color: white;
+    width: 80%;
+    display: flex;
+    padding: 10px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1), 0 1px 10px 0 rgba(0, 0, 0, 0.05);
+}
+
+[id ^= r-name-] {
+    width: 89%;
+    align-self: flex-start;
+    
+}
+
+[id ^= r-lang-] {
+    align-self: flex-end;
+    width: 9%;
+
+}
+
+[id ^= r-dscrp-] {
+    width: 100%;
+    min-height: 10%;
+    max-height: 50%;
+}
